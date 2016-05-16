@@ -7,7 +7,7 @@
     "clean": "rimraf dist/",
     "pretest": "tsc test/*.ts --outDir temp/",
     "test": "mocha temp/",
-    "lint": "npm run lint",
+    "lint": "npm run tslint",
     "build": "npm run tsc",
     "start": "npm run tsc && node dist/index.js",
     "tsc": "tsc src/*.ts --outDir dist/",
