@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/Andyccs/lgh-flattener.git"
+    "url": "https://github.com/Andyccs/typescript-nodejs-init"
   },
   "author": "Andyccs <andychong2@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/Andyccs/lgh-flattener/issues"
+    "url": "https://github.com/Andyccs/typescript-nodejs-init/issues"
   },
-  "homepage": "https://gitlab.com/Andyccs/lgh-flattener#README",
+  "homepage": "https://github.com/Andyccs/typescript-nodejs-init",
   "devDependencies": {
     "chai": "^3.2.0",
     "chai-http": "^1.0.0",
