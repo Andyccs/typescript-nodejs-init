@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+ssh://git@gitlab.com/Andyccs/lgh-flattener.git"
   },
-  "author": "Andyccs <andyccs@softinn.com>",
+  "author": "Andyccs <andychong2@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://gitlab.com/Andyccs/lgh-flattener/issues"
