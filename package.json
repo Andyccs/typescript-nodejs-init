@@ -1,7 +1,7 @@
 {
   "name": "typescript-nodejs-init",
   "version": "1.0.0",
-  "description": "",
+  "description": "Initial Typescript repository with Node.js so that you don't have to set up typescript repository by yourself",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist/",
@@ -12,7 +12,7 @@
     "start": "npm run tsc && node dist/index.js",
     "tsc": "tsc src/*.ts --outDir dist/",
     "tsc:w": "tsc src/*.ts --outDir dist/ --watch",
-    "tslint": "tslint -- src/*.ts",
+    "tslint": "tslint -- src/*.ts test/*.ts",
     "typings": "typings",
     "mocha": "mocha",
     "postinstall": "typings install"
