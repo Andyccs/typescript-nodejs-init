@@ -1,0 +1,39 @@
+{
+  "name": "typescript-nodejs-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "pretest": "tsc test/*.ts --outDir temp/",
+    "test": "mocha temp/",
+    "lint": "npm run lint",
+    "build": "npm run tsc",
+    "start": "npm run tsc && node dist/index.js",
+    "tsc": "tsc src/*.ts --outDir dist/",
+    "tsc:w": "tsc src/*.ts --outDir dist/ --watch",
+    "tslint": "tslint -- src/*.ts",
+    "typings": "typings",
+    "mocha": "mocha",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Andyccs/lgh-flattener.git"
+  },
+  "author": "Andyccs <andyccs@softinn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Andyccs/lgh-flattener/issues"
+  },
+  "homepage": "https://gitlab.com/Andyccs/lgh-flattener#README",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}
